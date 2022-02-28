@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+<link rel="stylesheet" href="style.css">
+ 
+</head>
+<body onload="document.form1.text1.focus()">
+ 
+<header>
+<img src="./images/logo.svg">
+</header>
+<table>
+<tr>
+<td>
+<h1 id="head1" > WE'RE</h1>
+<h2 id="head2"> COMING <br> </h2>
+<h2 id="head3"> SOON</h2>
+
+ <p id="text1"> Hello fellow shoppers! We're currently building our new <br> fashion store. 
+  Add your email below to stay up-to-date with <br> announcements and our launch deals.<br><br>
+
+
+  <form name="valEmail" action="#">
+
+
+    <ul id="form" align="left">
+      <input type="text" name="email" required>
+      <input type="submit" name="submit" value="Submit"  onclick="ValidateEmail(document.valEmail.email)">
+    </ul>
+
+  </form>
+  <script src="./js.js"></script>
+  </p>
+</td>
+<td id="pic">
+  <img src="./images/hero-desktop.jpg">
+</td>
+</tr>
+</table>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Modiba Samuel </a>.
+    </p>
+  </footer>
+</body>
+</html>
